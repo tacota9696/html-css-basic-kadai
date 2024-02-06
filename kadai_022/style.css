@@ -31,7 +31,7 @@ main {
   text-align: center;
 }
 
-h2 {
+.contents h2  {
   font-size: 25px;
   border-bottom: dotted 3px rgb(236,122,122);
 }
@@ -39,7 +39,7 @@ h2::before {
   content: "●";
   color: rgb(239,111,139);
 }
-.contents > p:nth-last-of-type(2)::first-letter {
+.contents p:nth-last-of-type(2)::first-letter {
   font-weight: bold;
   color: rgb(97,206,249);
 }
@@ -78,3 +78,8 @@ a:hover {
   }
   
 }
+
+
+
+
+
